@@ -261,7 +261,7 @@ document.addEventListener('DOMContentLoaded', function() {
             };
             
             // Create mailto link with form data
-            const mailtoLink = `mailto:browngatorgames@gmail.com?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(
+            const mailtoLink = `mailto:contact@browngator.com?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(
                 `Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`
             )}`;
             
@@ -281,3 +281,4 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
 });
+
