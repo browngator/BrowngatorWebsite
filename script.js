@@ -269,7 +269,7 @@ document.addEventListener('DOMContentLoaded', function() {
             window.location.href = mailtoLink;
             
             // Show success message
-            formStatus.textContent = 'Opening your email client... If it doesn\'t open, please email us directly at browngatorgames@gmail.com';
+            formStatus.textContent = 'Opening your email client... If it doesn\'t open, please email us directly at contact@browngator.com';
             formStatus.className = 'form-status success';
             
             // Reset form after a delay
@@ -279,4 +279,5 @@ document.addEventListener('DOMContentLoaded', function() {
             }, 5000);
         });
     }
+
 });
