@@ -13,8 +13,8 @@ const gamesData = [
             "HeyTomSS/SS5.png",
             "HeyTomSS/SS6.png",
         ],
-        link: "https://yourgame1.com", // Set to null or empty string for "Coming Soon"
-        comingSoon: true
+        link: "https://store.steampowered.com/app/4360050/Hey_Tom/", // Set to null or empty string for "Coming Soon"
+        comingSoon: false
     },
     {
         title: "Army Clash",
@@ -281,4 +281,5 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
 });
+
 
