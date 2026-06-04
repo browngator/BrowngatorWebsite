@@ -49,6 +49,17 @@ const gamesData = [
         ],
         link: "https://play.google.com/store/apps/details?id=com.AdityaSharma.CarSmashFrenzy",
         comingSoon: false
+    },
+
+    {
+        title: "Skin Quiz Demo",
+        description: "Answer questions and unlock your inner personality",
+        images: [
+            "SkinPersonalityQuizDemo/SS1.png",
+            "SkinPersonalityQuizDemo/SS2.png"
+        ],
+        link: "/SkinPersonalityQuizDemo/",
+        comingSoon: false
     }
 ];
 
