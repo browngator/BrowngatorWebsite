@@ -43,10 +43,10 @@ const gamesData = [
         title: "Swiggy Game Demo",
         description: "This is a demo game made for swiggy where you have to collect and deliver parcels to unlock coupon",
         images: [
-            "SwiggyGameDemo/SS1.png",
-            "SwiggyGameDemo/SS2.png",
-            "SwiggyGameDemo/SS3.png",
-            "SwiggyGameDemo/SS4.png"
+            "SwiggyDemo/SS1.png",
+            "SwiggyDemo/SS2.png",
+            "SwiggyDemo/SS3.png",
+            "SwiggyDemo/SS4.png"
         ],
         link: "/SwiggyDemo/",
         comingSoon: false
