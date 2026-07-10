@@ -48,7 +48,7 @@ const gamesData = [
             "SwiggyGameDemo/SS3.png",
             "SwiggyGameDemo/SS4.png"
         ],
-        link: "/SwiggyGameDemo/",
+        link: "/SwiggyDemo/",
         comingSoon: false
     },
 
