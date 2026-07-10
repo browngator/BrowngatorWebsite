@@ -40,6 +40,19 @@ const gamesData = [
     },
 
     {
+        title: "Swiggy Game Demo",
+        description: "This is a demo game made for swiggy where you have to collect and deliver parcels to unlock coupon",
+        images: [
+            "SwiggyGameDemo/SS1.png",
+            "SwiggyGameDemo/SS2.png",
+            "SwiggyGameDemo/SS3.png",
+            "SwiggyGameDemo/SS4.png"
+        ],
+        link: "/SwiggyGameDemo/",
+        comingSoon: false
+    },
+
+    {
         title: "Car Smash Frenzy",
         description: "Control your car, change it's size by colliding with the other cars!",
         images: [
