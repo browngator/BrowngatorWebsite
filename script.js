@@ -13,8 +13,8 @@ const gamesData = [
             "HeyTomSS/SS5.png",
             "HeyTomSS/SS6.png",
         ],
-        link: "https://yourgame1.com", // Set to null or empty string for "Coming Soon"
-        comingSoon: true
+        link: "https://store.steampowered.com/app/4360050/Hey_Tom/", // Set to null or empty string for "Coming Soon"
+        comingSoon: false
     },
     {
         title: "Army Clash",
@@ -274,7 +274,7 @@ document.addEventListener('DOMContentLoaded', function() {
             };
             
             // Create mailto link with form data
-            const mailtoLink = `mailto:browngatorgames@gmail.com?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(
+            const mailtoLink = `mailto:contact@browngator.com?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(
                 `Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`
             )}`;
             
@@ -282,7 +282,7 @@ document.addEventListener('DOMContentLoaded', function() {
             window.location.href = mailtoLink;
             
             // Show success message
-            formStatus.textContent = 'Opening your email client... If it doesn\'t open, please email us directly at browngatorgames@gmail.com';
+            formStatus.textContent = 'Opening your email client... If it doesn\'t open, please email us directly at contact@browngator.com';
             formStatus.className = 'form-status success';
             
             // Reset form after a delay
@@ -292,4 +292,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }, 5000);
         });
     }
+
 });
+
+
